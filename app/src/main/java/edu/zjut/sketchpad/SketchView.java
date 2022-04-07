@@ -99,6 +99,7 @@ public class SketchView extends View
         else if(event.getAction() == MotionEvent.ACTION_MOVE)
         {
             isMove = true;
+            strokeWidth=Math.min(event.getSize()*20,17);
             invalidate();
             return true;
         }else if (event.getAction() == MotionEvent.ACTION_UP){
