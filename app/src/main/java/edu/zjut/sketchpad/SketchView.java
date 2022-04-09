@@ -18,7 +18,7 @@ public class SketchView extends View
     float clickX = 0,clickY = 0;
     boolean isMove = true;
     boolean isClear = false;
-    int color=Color.GRAY;
+    int color=Color.rgb(28, 109, 208);
     float strokeWidth=10.0f;
 
     public SketchView(Context context, AttributeSet attrs)
